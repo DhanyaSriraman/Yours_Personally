@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="alternate" type="application/rss+xml"
+    title="Blog Title" href="Feed URL"/>
+    <meta charset="utf-8"></meta>
+    <title>Tourism website</title>
+    <link rel="stylesheet" href="frontend.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="alert" onclick="coupon()">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      <strong>Logged In!</strong> <br> Use the coupon code below to get amazing discounts :
+      <input type="text" name="total" id="cou" style="background-color: #660099;color:white;height:5px;">
+    </div>
+
+
+    <button type="button" class="logout" onclick="location.href='bok.html'">Log out</button>
+  </head>
+  <div class="hey">
+      <h1>Yours Personally </h1>
+      <in>A website to guide you completely throughout Singapore <br>Have Your best vacation to Singapore!<p>
+      </div>
+      <button type="button" class="weath" onclick="location.href='weatheer.html'">Know before you go</button>
+  <div class="contain">
+    <br><br><br><br>
+    <ul><li><a href="placestovisit.html">Places to Visit</a></li>
+    <li><a href="about us.html">About Us</a></li>
+    <li><a href="hotel.html">Hotels and resorts</a></li>
+    <li><a href="https://migrationology.com/singapore-food/">Food</a></li>
+  </div>
+
+<form class="account" action="bb" method="post">
+<h5 style="margin-right: 80%;">Find Your Account Details Here</h5>
+ <button  type="submit" value="MY ACCOUNT"><b>My Account</b></button>
+</form>
+<h3 style="margin-left: 80%;margin-top:-8%">TRY THIS! </h3>
+<button class="location" type="button" onclick="location.href='geoloc.html'" value="KnowyourLocation"style="margin-left: 80%;">Know Your Location</button>
+  <body class="headerr">
+  <h2 style="margin-top:-7%;"><blink><b>Register here!</b></blink></h2>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:50%;margin-top:-25%;background-color:#660099">Register for our tourist package</button>
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="hb" method="post">
+          <div class="container">
+            <h1>Travel package for your time in singapore!Register.</h1>
+            <p>Please fill in this form to book your ticket</p>
+            <hr>
+            <label><b>From location</b></label>
+            <input type="text" name="location" class="tv">
+            <label><b>Enter 1 for deluxe travel package<br>Enter 2 for normal travel package</b></label>
+            <input type="text" name="int" id="cost" class="tv">
+            <label><b>Date of travel</b></label>
+            <input type="text"  name="date" class="tv">
+            <label><b>Enter number of passengers </b></label>
+            <input type="text" name="num" id="no" class="tv">
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <button type="button" class="signupbtn" onclick="myFunction()">Check cost</button>
+            <label><b>Total amount to be paid(in Indian rupees)</b> </label>
+            <input type="text" name="total" id="tot"class="tv">
+              <br>
+            <label><b>Mode of transport provided</b> </label>
+            <input type="text" name="total" id="mod"class="tv">
+                <br><br>
+                <label><b>Enter the coupon code</b></label>
+                <input type="text"  name="coupon" class="tv">
+          <button type="submit" class="buk">Book Package</button>
+            </div>
+          </div>
+        </form>
+      </div>
+  </body>
+  <br><br><br><br><br><br><br><br>
+
+  <!--<h2 style="text-align:center">Slideshow Gallery</h2>
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/g1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/g2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/g3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img/g4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/g5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/g6.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>-->
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img/spp.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/sdd.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/sgg.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/soo.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/suu.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/scc.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+
+
+
+  <br><br><br><br><br><br>
+
+    <div class="wrapper">
+      <img src="img/jump.jpg" class="ju">
+  <p><pre>
+ <h5><b>              SINGAPORE     </b></h5>
+      There’s no other place like Singapore.Located just off the
+      southern tip of Malaysia,this vibrant city-state boasts a
+      beautiful blend of Malaysian,Indian, Chinese, Arab and English
+      cultures – all with its own Singaporean twist.
+
+      The “Lion City,” as it's referred to,is filled with delightful
+      culinary experiences,state-of-the-art accommodations and
+      exciting nightlife. My ultimate Singapore travel guide is
+      filled with travel tips to help you plan your own trip!</pre></p>
+<br>
+</div>
+<br><br><br>
+  <p class="vi">Here's a tourist promo video from one of our customers!<br><br> </p>
+  <video width="890" height="500" controls>
+  <source src="pictures/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+<br>
+<br>
+<div class="map">
+        <br><br>
+              <h2 style="color:black;font-weight:bold">   The Map of Singapore </h2>
+     <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=1.3185776783384426~103.84174349999999&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+     </iframe>
+     <br>
+     <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=1.3185776783384426~103.84174349999999&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD"style="margin-left:100%">View Larger Map</a> &nbsp; | &nbsp;
+        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=1.3185776783384426~103.84174349999999&amp;sty=r&amp;lvl=11&amp;rtp=~pos.1.3185776783384426_103.84174349999999____&amp;FORM=MBEDLD">Get Directions</a>
+     <br><br>
+    </div>
+</div>
+<br>
+<div class="stars" onmouseout="">
+<center class="st">Drop your stars here !</center><br>
+<center>
+
+<form action="">
+  <input class="star star-5" id="star-5" type="radio" name="star"/>
+  <label class="star star-5" for="star-5"></label>
+  <input class="star star-4" id="star-4" type="radio" name="star"/>
+  <label class="star star-4" for="star-4"></label>
+  <input class="star star-3" id="star-3" type="radio" name="star"/>
+  <label class="star star-3" for="star-3"></label>
+  <input class="star star-2" id="star-2" type="radio" name="star"/>
+  <label class="star star-2" for="star-2"></label>
+  <input class="star star-1" id="star-1" type="radio" name="star"/>
+  <label class="star star-1" for="star-1"></label>
+</form>
+</div>
+<br><br>
+<input type="button" class="guide" value="Give your reviews/feedbacks here" onclick="location.href='review.html'"></input>
+</center>
+<br><br>
+   <div class="icon-bar">
+  <a href="https://www.facebook.com/Singapore.Tourism" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/visitsingapore" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.linkedin.com/company/singapore-tourism-board/?miniCompanyUrn=urn%3Ali%3Afs_miniCompany%3A11191" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.youtube.com/watch?v=aHuaNF5TW_A" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
+   <script>
+
+
+      </script>
+
+
+
+
+</html>

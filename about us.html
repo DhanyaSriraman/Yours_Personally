@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: pink;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: lightblue;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: orange;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h2>About Us</h2>
+</header>
+
+<section>
+  <nav><h2>Contact Us</h2>
+    <ul>
+      <li><b>Phone no</b> 9345279835</a></li>
+      <li><b>Email</b>-yourspersonally@gmail.com</a></li>
+      <li><b>Twitter</b>-Yours_personally</a></li>
+      <li>
+<b>Address</b><pre></pre>138 Cecil Street,
+                         #05-01, Cecil Court,
+                         Singapore 069538</pre></a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>About Yours personally</h1>
+  <p><ul>
+      <li> We will guide you throughout the package.</li>
+   <li>Pickup and drop will be provided by us. </li>
+ <li>You can book the stay place at your convinient from our hotel page. </li>
+ <li>We will execute things in a sequence according to the schedule. </li>
+ <li>Safe Journey is our Outmost Priority </li>
+    <li>First Aid will be available</li>
+</ul></p>
+  </article>
+</section>
+<div class="row">
+  <div class="column" style="background-color:skyblue">
+    <h2>Normal Package</h2>
+    <p>***NON A/c car ***<br>
+    <p> *** Non A/c hotel ***<br>
+    <p> *** normal Food ***<br>     </p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+
+<h2>Delux Package</h2>
+    <p> *** A/c car ***<br>
+    <p>***  A/c hotel ***<br>
+    <p> *** special Food *** <br>
+  </div>
+<footer>
+  <p style="vertical-align:center;">Have A Wonderful Journey!</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+body{
+  height: 100%;
+  background-image: url("pictures/revb.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: black;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0 0 3px;
+}
+.re{
+  height: 130px;
+  width: 600px;
+  background-color:white;
+  margin: 0 auto;
+  text-align: center;
+  border-color: white;
+  color:black;
+  size:30px;
+}
+input{
+  width: 30%;
+  background-color: #CD5C5C;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+  </style>
+  <body>
+    <center>
+    <h1>Review page</h1>
+    </center>
+    <br><br>
+    <center>
+    <form action="db" method="post">
+    <textarea class="re" name="revi" rows="8" cols="80">Type your review here</textarea>
+    <br><br>
+    <input type="submit" value="Submit review"></input>
+    </form>
+    </center>
+  </body>
+</html>

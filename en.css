@@ -1,0 +1,50 @@
+h1{
+  margin: 0 auto;
+  text-shadow: black;
+  font-weight: 900;
+  font-family: 'Merienda';
+
+}
+body{
+background-color:#FFCC70;
+}
+.for{
+  margin:0 auto;
+  color: black;
+  text-shadow: black;
+  font-family: 'Merienda';
+  font-size: 20px;
+  font-weight: bolder;
+}
+.for input{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: black;
+  background: #f1f1f1;
+}
+.for select{
+  width: 15%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: black;
+  background: #f1f1f1;
+}
+.for option{
+  color: black;
+  text-shadow: black;
+  font-family: 'Merienda';
+  font-size: 20px;
+  font-weight: bolder;
+}
+button{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  color: white;
+  border: black;
+  background: black;
+}

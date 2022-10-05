@@ -1,0 +1,93 @@
+.hey{
+color: black;
+text-shadow: black;
+font-weight: 900;
+font-family: 'Merienda';
+}
+body{
+  background-color: #FFCC70
+}
+.contain
+{
+  margin-bottom:0;
+  width:1000 px;
+  height: 200px;
+
+}
+.contain ul
+{
+
+  width: 100%;
+}
+.contain li
+{
+  display: inline;
+}
+.contain a
+{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  margin-left: 10%;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  text-shadow:white;
+  font-weight: 900;
+  font-family: 'Merienda';
+  }
+  li:last-child a
+   {margin-right: 0;}
+  a:link, a:visited, a:focus
+   {background: black;}
+  a:hover {background: #2F4F4F;}
+  a:active {background: brown;color: pink;}
+.jer{
+  color: black;
+  text-shadow: black;
+  font-weight: 900;
+  font-family: 'Merienda';
+
+}
+.ach{
+  margin:0 auto;
+  color: black;
+  text-shadow: black;
+  font-family: 'Merienda';
+  font-size: 20px;
+  font-weight: bolder;
+}
+.ach input{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: black;
+  background: #f1f1f1;
+}
+.ach select{
+  width: 15%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: black;
+  background: #f1f1f1;
+}
+.ach option{
+  color: black;
+  text-shadow: black;
+  font-family: 'Merienda';
+  font-size: 20px;
+  font-weight: bolder;
+}
+button{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  color: white;
+  border: black;
+  background: black;
+}

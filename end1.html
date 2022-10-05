@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="en1.css">
+  </head>
+  <body>
+    <div class="hey">
+    <center><h1>Indian Cricket players information portal </h1></center>
+    </div>
+
+<br><br><br><br>
+    <div class="contain">
+      <br><br><br><br>
+      <ul><li><a href="https://en.wikipedia.org/wiki/India_national_cricket_team">Team information</a></li>
+      <li><a href="https://riyasatputeblog.wordpress.com/">Achievements</a></li>
+      <li><a href="https://www.indianetzone.com/1/cricket_trophies.htm">Trophies</a></li>
+    </div>
+    <center>
+    <div class="jer">
+    <label>Enter the jersey number of players</label>
+    <input type="text" id="sn"></input>
+    <button onclick="myfun()">Get info</button>
+    <br><br><br><br>
+    <p id="pl"></p>
+    </div>
+  </center>
+  </body>
+  <script>
+  function myfun()
+  {
+    var x=parseInt(document.getElementById('sn').value);
+    if(x==18)
+
+         document.getElementById('pl').innerHTML="The jersey number is of Virat kohli.To know more about him visit https://en.wikipedia.org/wiki/Virat_Kohli";
+    else if(x==45)
+
+         document.getElementById('pl').innerHTML="The jersey number is of Rohit sharma.To know more about him visit https://en.wikipedia.org/wiki/Rohit_Sharma";
+      else  if(x==27)
+
+              document.getElementById('pl').innerHTML="The jersey number is of Rahane.To know more about him visit https://en.wikipedia.org/wiki/Ajinkya_Rahane";
+      else
+               document.getElementById('pl').innerHTML="Couldnt fetch details";
+  }
+
+  </script>
+</html>

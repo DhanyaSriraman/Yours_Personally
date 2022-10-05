@@ -1,0 +1,553 @@
+/*.alert {
+  padding: 20px;
+  width: 50%;
+  margin-top: 0;
+  margin: 0 auto;
+  background-color: #660099;
+  color: white;
+  height: 30px;
+}*/
+.weath{
+  margin-left: 40%;
+  float: left;
+  background-color:#d9b3ff ;
+  color: #696969;
+  font-family: 'Merienda';
+  display: inline-block;
+  width: 20%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.logout{
+  margin-left: 70%;
+  background-color:white ;
+  color: #660099;
+  font-family: 'Merienda';
+  display: inline-block;
+  width: 20%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.hey{
+  margin-top: 0px;
+  opacity: 1;
+  height: 400px;
+  background-attachment: fixed;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 0 3px;
+
+}
+.hey p{
+  font-size: 25px;
+}
+.contain
+{
+  margin-bottom:0;
+  width:1000 px;
+  height: 200px;
+
+}
+.contain ul
+{
+
+  width: 100%;
+}
+.contain li
+{
+  display: inline;
+}
+.contain a
+{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: #696969;
+  text-shadow: black;
+  font-weight: 900;
+  font-family: 'Merienda';
+  }
+  li:last-child a
+   {margin-right: 0;}
+  a:link, a:visited, a:focus
+   {background: #d9b3ff;}
+  a:hover {background: #2F4F4F;}
+  a:active {background: brown;color: pink;}
+   .Box
+   {
+     font-size: 20px;
+     color: black;
+     text-shadow: 0 0 3px black;
+   }
+.account button{
+  background-color: #d9b3ff;
+  color: black;
+  font-family: 'Merienda';
+  display: inline-block;
+  width: 20%;
+  margin-right: 90%;
+
+}
+.location{
+
+  width: 20%;
+ background-color:#d9b3ff ;
+ color: black;
+  font-family: 'Merienda';
+  display: inline-block;
+}
+
+.headerr
+{
+
+  background-image: url("img/singap.jpg");
+  text-align:center;
+  background-repeat: no-repeat;
+   background-size: 1450px 500px;
+   background-position:top;
+
+
+}
+.footer a{
+    width: 50px;
+    height: 27px;
+    box-shadow: 0 0 7px #F0FFF0;
+    color: white;
+}
+
+.hey h1{
+  font-size: 60px;
+}
+h1 {
+  display: flex;
+  flex-direction: row;
+}
+h1:before, h1:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+h1:before {
+  margin-right: 10px
+}
+h1:after {
+  margin-left: 10px
+}
+p
+{
+  color: white;
+  font-family:'Great Vibes', cursive;
+  font-size: 30px;
+
+}
+.wrapper .ju{
+  height: 400px;
+  width: 320px;
+  float: left;
+   margin-left: 40%;
+
+}
+
+  .wrapper{
+      height: 400px;
+      width: 320px;
+
+     font-weight: bolder;
+     text-align: center;
+	   font-family: Lucida Console monospace;
+   }
+   .wrapper h5{
+     font-family: Lucida Console monospace;
+     font-size: 21px;
+   }
+   .wrapper pre{
+     background-color: #F0FFF0;
+     color: black;
+     font-size: 18px;
+     font-family: font-family: Lucida Console monospace;
+     text-align: center;
+     margin:  0 auto;
+   }
+   .cleared {
+    clear: left;
+}
+
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #CD5C5C;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #CD5C5C ;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+.buk{
+  width: 50%;
+  float: none;
+}
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+   top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  margin: 0 auto;
+  overflow: auto; /* Enable scroll if needed */
+  background-image: url("pictures/pic.jpg");
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.guide{
+  width: 30%;
+  background-color: #d9b3ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+.rec{
+  height: 130px;
+   width: 600px;
+  background-color:#F0FFF0;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 3px;
+ font-size: 15px;
+  font-family: 'Merienda';
+  font-weight: bolder;
+}
+iframe{
+  box-shadow: 0 0 7px white;
+  margin: 0 auto;
+}
+.map{
+  margin: 0 auto;
+}
+.map a{
+  color: black;
+  text-shadow: 0 0 5px black;
+  font-weight: bolder;
+}
+.map h2{
+  color: white;
+  text-shadow: 0 0 5px white;
+  font-weight: bolder;
+}
+video{
+  box-shadow: 0 0 15px white;
+}
+.vi{
+  color: black;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: light-bold;
+  font-size: 30px;
+
+}
+div.stars {
+width: 270px;
+display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+float: right;
+padding: 10px;
+font-size: 36px;
+color: black;
+transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+content: '\f005';
+color: #FD4;
+transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+color: #FE7;
+text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+content: '\f006';
+font-family: FontAwesome;
+}
+.st{
+  color: black;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 0 3px;
+}
+.stars
+{
+  height: 130px;
+   width: 1000px;
+  background-color:#F0FFF0;
+  margin: 0 auto;
+  text-align: center;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  height: 50%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 1;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.alert {
+  padding: 10px;
+  height: 10%;
+  width: 30%;
+  margin-bottom: 100%;
+  margin-top: 0;
+  margin: 0 auto;
+  background-color: #660099;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
